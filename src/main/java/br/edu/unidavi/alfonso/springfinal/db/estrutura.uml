@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-318.2829888712241" y="272.16693163751984">br.edu.unidavi.alfonso.springfinal.db.entity.Item</node>
+    <node x="201.0" y="234.0">br.edu.unidavi.alfonso.springfinal.db.entity.Cliente</node>
+    <node x="0.0" y="0.0">br.edu.unidavi.alfonso.springfinal.db.entity.Produto</node>
+    <node x="201.5" y="11.0">br.edu.unidavi.alfonso.springfinal.db.entity.Endereco</node>
+    <node x="100.75" y="468.0">br.edu.unidavi.alfonso.springfinal.db.entity.Pedido</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.edu.unidavi.alfonso.springfinal.db.entity.Cliente" target="br.edu.unidavi.alfonso.springfinal.db.entity.Endereco">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="br.edu.unidavi.alfonso.springfinal.db.entity.Pedido" target="br.edu.unidavi.alfonso.springfinal.db.entity.Item">
+      <point x="-45.25" y="-81.0" />
+      <point x="146.0" y="443.0" />
+      <point x="90.5" y="443.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="br.edu.unidavi.alfonso.springfinal.db.entity.Item" target="br.edu.unidavi.alfonso.springfinal.db.entity.Produto">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="br.edu.unidavi.alfonso.springfinal.db.entity.Pedido" target="br.edu.unidavi.alfonso.springfinal.db.entity.Cliente">
+      <point x="45.25" y="-81.0" />
+      <point x="236.5" y="443.0" />
+      <point x="292.0" y="443.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9676923076923077" x="191.5" y="305.0" />
+  <SelectedNodes>
+    <node>br.edu.unidavi.alfonso.springfinal.db.entity.Item</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
